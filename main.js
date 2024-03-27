@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")
+const prompt = require('prompt-sync')
 
-const target = Math.random()
+const target = 10 + Math.round(Math.random() * 90)
 console.log(target)
